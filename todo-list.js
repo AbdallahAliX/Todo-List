@@ -1,4 +1,4 @@
-const todoList = JSON.parse(localStorage.getItem('todoList'));
+const todoList = JSON.parse(localStorage.getItem('todoList')) || [];
 
 renderingList();
 
